@@ -15,19 +15,19 @@ body {
   border-radius: 50%;
   overflow: hidden;
   margin: 0;
-  /* animation: rotate 300ms linear infinite; */
+  animation: rotate 300ms linear infinite; 
 }
 
 /* Start animation and circle starts to rotate */
 
-/* @keyframes rotate {
+@keyframes rotate {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(-360deg);
   }
-} */
+} 
 .square {
   height: 16px;
   width: 16px;
