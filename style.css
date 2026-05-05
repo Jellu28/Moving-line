@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+  max-width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 20px #fff;
+}
+.square {
+  width: 16px;
+  height: 16px;
+  background: #999;
+  margin: 2px;
+  transition: 2s ease;
+}
+.square:hover {
+  transition-duration: 0s;
+}
+@media (max-width: 540px) {
+  .container {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
